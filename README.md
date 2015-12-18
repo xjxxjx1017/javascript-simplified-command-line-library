@@ -7,7 +7,7 @@ A command line library. Can be used to create web or mobile command line based a
 * Define and bind new commands
 * 
 ### Sample
-\\\\\
+```
 In .html file:
 ________
 
@@ -15,9 +15,9 @@ ________
 <script type="text/javascript" src="js/utils/commandline/input.js"></script>
 <script type="text/javascript" src="js/utils/commandline/display.js"></script>
 <script type="text/javascript" src="js/utils/commandline/manager.js"></script>
-\\\\\\
+```
 
-\\\\\\
+```
 In .js file:
 ________
 
@@ -33,4 +33,4 @@ cmd.define( "print", printLine );
 cmd.define( "clear", function () {
 cmd.clear();
 } );
-\\\\\\\
+```
