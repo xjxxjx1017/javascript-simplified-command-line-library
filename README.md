@@ -6,9 +6,8 @@ A command line library. Can be used to create web or mobile command line based a
 * Display out put on text field
 * Define and bind new commands
 
-### Sample
+### How to use
 ##### .html
-________
 ```
 <script type="text/javascript" src="js/utils/commandline/core.js"></script>
 <script type="text/javascript" src="js/utils/commandline/input.js"></script>
@@ -17,7 +16,6 @@ ________
 ```
 
 ##### .js
-________
 ```
 var cmd = new CommandLine.Manager( "#xjx_input", "#xjx_display" );
 
