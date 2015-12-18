@@ -16,13 +16,13 @@ var cmd = new CommandLine.Manager( "#xjx_input", "#xjx_display" );
 
 // * define print
 function printLine( str ) {
-cmd.log( str );
+  cmd.log( str );
 }
 cmd.define( "print", printLine );
 
 // * define clear
 cmd.define( "clear", function () {
-cmd.clear();
+  cmd.clear();
 } );
 ```
 
