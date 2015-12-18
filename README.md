@@ -5,7 +5,7 @@ A command line library. Can be used to create web or mobile command line based a
 * Read commands from input field,
 * Display out put on text field
 * Define and bind new commands
-* 
+
 ### Sample
 ##### .html
 ________
