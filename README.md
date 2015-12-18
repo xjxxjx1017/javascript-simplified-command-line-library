@@ -7,20 +7,18 @@ A command line library. Can be used to create web or mobile command line based a
 * Define and bind new commands
 * 
 ### Sample
-```
-In .html file:
+##### .html
 ________
-
+```
 <script type="text/javascript" src="js/utils/commandline/core.js"></script>
 <script type="text/javascript" src="js/utils/commandline/input.js"></script>
 <script type="text/javascript" src="js/utils/commandline/display.js"></script>
 <script type="text/javascript" src="js/utils/commandline/manager.js"></script>
 ```
 
-```
-In .js file:
+##### .js
 ________
-
+```
 var cmd = new CommandLine.Manager( "#xjx_input", "#xjx_display" );
 
 // * define print
